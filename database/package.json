@@ -1,0 +1,26 @@
+{
+  "name": "database",
+  "version": "0.0.1",
+  "private": true,
+  "module": "src/index.ts",
+  "type": "module",
+  "types": "src/index.ts",
+  "scripts": {
+    "dev": "tsx watch",
+    "generate": "drizzle-kit generate:sqlite",
+    "push": "drizzle-kit push",
+    "migrate": "tsx src/migrate.ts",
+    "init": "tsx src/init.ts",
+    "check": "tsx src/check.ts"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.2",
+    "drizzle-kit": "^0.30.2",
+    "tsx": "^4.19.2"
+  },
+  "dependencies": {
+    "@libsql/client": "^0.14.0",
+    "dotenv": "^16.4.7",
+    "drizzle-orm": "^0.38.4"
+  }
+}

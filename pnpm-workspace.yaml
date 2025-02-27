@@ -1,0 +1,6 @@
+packages:
+  - crawler
+  - agent
+  - website
+  - database
+  - dashboard
