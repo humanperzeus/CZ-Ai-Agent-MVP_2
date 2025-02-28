@@ -1,7 +1,7 @@
-# CZ AI Agent - Crypto Influencer Replication
+# CZ AI Agent - Crypto Influencer Replication (MVP)
 
 ## Overview
-This project implements an AI agent that replicates Changpeng Zhao (CZ), the founder and former CEO of Binance. The agent is designed to generate content for Twitter/X and engage with the crypto community in CZ's characteristic style.
+This project implements an MVP (Minimum Viable Product) AI agent that aims to replicate Changpeng Zhao (CZ), the founder and former CEO of Binance. The current implementation focuses on Twitter/X integration with plans for Instagram expansion.
 
 ## Why CZ?
 - **Industry Leadership**: As Binance's founder, CZ has been a pivotal figure in cryptocurrency adoption and industry development
@@ -32,7 +32,26 @@ This project implements an AI agent that replicates Changpeng Zhao (CZ), the fou
 - Monitor community feedback
 - Validate technical accuracy
 
-## Technical Implementation
+## Technical Implementation (Current MVP Status)
+
+### Implemented Features
+- Basic Twitter stream monitoring
+- Initial personality configuration
+- Database schema and migrations
+- Response generation framework
+- Development environment setup
+
+### In Development
+- Market analysis integration
+- Content generation refinement
+- Testing framework
+- Performance optimization
+
+### Planned Features
+- Instagram integration
+- Advanced sentiment analysis
+- Multi-language support
+- Real-time market data integration
 
 ### Stack
 - **Backend**: Node.js with TypeScript
@@ -45,24 +64,25 @@ This project implements an AI agent that replicates Changpeng Zhao (CZ), the fou
 - **Job Processing**: Inngest
 - **Monitoring**: Discord integration
 
-### Key Features
-1. **Personality Configuration**
-   - Voice characteristics
-   - Content style
-   - Engagement rules
-   - Response patterns
+## Current Limitations
+- Content generation requires further refinement
+- Market analysis is in early stages
+- Testing coverage is limited
+- Instagram integration not yet implemented
+- Performance optimization needed
 
-2. **Content Generation**
-   - Market analysis
-   - Industry updates
-   - Community engagement
-   - Technical explanations
-
-3. **Interaction System**
-   - Tweet monitoring
-   - Response generation
-   - Thread creation
-   - Engagement tracking
+## Development Status
+- [x] Basic infrastructure setup
+- [x] Initial Twitter integration
+- [x] Basic personality configuration
+- [x] Response generation framework
+- [ ] Content generation refinement
+- [ ] Market analysis integration
+- [ ] Testing framework
+- [ ] Instagram integration
+- [ ] Performance optimization
+- [ ] Advanced sentiment analysis
+- [ ] Multi-language support
 
 ## Setup
 
@@ -119,16 +139,6 @@ The agent's personality is configured through a set of parameters stored in the 
 - **Engagement Rules**: Community-focused, solution-oriented
 - **Market Analysis**: Data-driven, trend-aware
 - **Risk Management**: Security-conscious, compliance-aware
-
-## Development Status
-- [x] Basic infrastructure setup
-- [x] Twitter integration
-- [x] CZ personality configuration
-- [x] Response generation
-- [x] Market analysis integration
-- [ ] Instagram integration
-- [ ] Advanced sentiment analysis
-- [ ] Multi-language support
 
 ## Contributing
 1. Fork the repository
